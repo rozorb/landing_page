@@ -9,7 +9,7 @@ body {
 .top {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 25px 200px 25px 200px;
+    padding: 25px 180px 25px 180px;
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -19,9 +19,57 @@ body {
 .header {
     font-size: 24px;
     font-weight: bold;
+    flex-grow: 1;
+    display: flex;
 }
 
 .top-right {
     display: flex;
     gap: 16px;
 }
+
+.midtop {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 90px 120px 100px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.leftmid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    width: 450px;
+}
+
+.intro {
+    font-size: 48px;
+    font-weight: 800;
+    padding-right: 50px;
+
+}
+
+.introtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.introimg {
+    padding: 8px;
+    width: 450px;
+}
+
