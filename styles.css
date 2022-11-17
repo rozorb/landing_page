@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    /*height: 100vh;*/
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -74,7 +74,7 @@ button {
 }
 
 .mid {
-    padding: 50px 0px 90px;
+    padding: 50px 0px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,4 +112,32 @@ button {
 
 .text {
     font-size: 18px;
+}
+
+.midbottom {
+    padding: 140px 0px;
+    border: 1px solid;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    padding: 50px 2px;
+    width: 850px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.qtext {
+    font-size: 36px;
+
+}
+
+.qtag {
+    margin-left: auto;
 }
