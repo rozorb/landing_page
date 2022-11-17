@@ -148,7 +148,7 @@ button {
 }
 
 .bottom {
-    padding: 70px;
+    padding: 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,5 +181,11 @@ margin-left: 20px;
 }
 
 .footer {
+    padding: 40px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
